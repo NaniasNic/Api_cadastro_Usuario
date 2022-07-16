@@ -1,0 +1,15 @@
+POST http://localhost:3030/usuarios
+Content-Type: application/json
+
+{
+    "nick" : "Darknias",
+    "Nivel" : "100",
+    "champ" : "YONE",
+    "lane" : "adc",
+    "sublane" : "mid"
+}
+
+
+###
+
+GET http://localhost:3030/usuarios
